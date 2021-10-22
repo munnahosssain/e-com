@@ -1,3 +1,32 @@
-.product-container{
-    margin-bottom: 12px;
+.product{
+    display: flex;
+    margin: 10px 20px 0 50px;
+    border-bottom: 1px solid gray;
+}
+
+.product-name {
+    color: blue;
+    font-weight: 450;
+}
+
+.product-details{
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.main-button {
+    color: white;
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: goldenrod;
+    border: 1px dotted black;
+}
+
+.main-button:hover {
+    color: whitesmoke;
+    background-color: #127212;
 }
