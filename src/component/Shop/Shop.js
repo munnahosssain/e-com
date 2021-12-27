@@ -8,12 +8,11 @@ const Shop = () => {
     const [product, setProduct] = useState(firstTen)
 
     const [cart, setCart] = useState([]);
-    
-    const handleAddProduct=(product) => {
+
+    const handleAddProduct = (product) => {
         console.log("button clicked", product);
-        const newCard= [...cart, product];
+        const newCard = [...cart, product];
         setCart(newCard);
-        // preventDefault(e.target.value);
     }
 
     return (
@@ -29,9 +28,8 @@ const Shop = () => {
                 }
             </div>
             <div className="card-container">
-                <Cart cart={cart}/>
+                <Cart cart={cart} />
             </div>
-
         </div>
     );
 };

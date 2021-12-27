@@ -32,9 +32,12 @@ const Cart = (props) => {
         <div>
             <h3>Order Summary</h3>
             <p>Items ordered: {cart.length}</p>
-            <p>Shipping Cost: <small>{shippingCost}</small></p>
-            <p>Tax + Vat: <small>{vatTax}</small></p>
-            <p>Total Price: {TotalPrice}</p>
+            <div>
+                <p className="cart-wrapping">Price: {total}</p>
+                <p>Shipping Cost: <small>{shippingCost}</small></p>
+                <p>Tax + Vat: <small>{vatTax}</small></p>
+                <p>Total Price: {TotalPrice}</p>
+            </div>
         </div>
     );
 };

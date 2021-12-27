@@ -1,4 +1,4 @@
-.product{
+.product {
     display: flex;
     margin: 10px 20px 0 50px;
     border-bottom: 1px solid gray;
@@ -9,7 +9,7 @@
     font-weight: 450;
 }
 
-.product-details{
+.product-details {
     margin-left: 25px;
     margin-right: 20px;
 }
